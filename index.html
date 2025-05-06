@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL Samurai مبرمج ومطور</title>
+    <meta name="description" content="الموقع الشخصي EL Samurai- مبرمج بايثون ومطور ويب ومهتم بالاختراق">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="loading-screen">
+        <div class="hacking-animation">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-title">EL Samurai Terminal</div>
+                    <div class="terminal-controls">
+                        <span class="control"></span>
+                        <span class="control"></span>
+                        <span class="control"></span>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <div class="line">Initializing system...</div>
+                    <div class="line">Loading modules...</div>
+                    <div class="line">Connecting to server...</div>
+                    <div class="line">Access granted...</div>
+                    <div class="line">Welcome to EL Samurai's world...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <canvas id="matrix-bg"></canvas>
+
+    
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">EL Samurai</span>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="القائمة">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">عني</a></li>
+                    <li><a href="#skills" class="nav-link">المهارات</a></li>
+                    <li><a href="#projects" class="nav-link">المشاريع</a></li>
+                    <li><a href="#contact" class="nav-link">اتصل بي</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="EL Samurai">EL Samurai</h1>
+                <div class="typing-text">
+                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </div>
+                <p class="hero-description">مبرمج شغوف بالتكنولوجيا والاختراق، أسعى دائماً لتطوير مهاراتي وإنشاء مشاريع مبتكرة.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">مشاريعي</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow">
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- قسم عني -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من أنا؟</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="avatar-container">
+                            <div class="avatar-placeholder">
+                                <span>EL Samurai</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-name">EL Samurai</h3>
+                    <p class="about-title">مبرمج بايثون ومطور ويب</p>
+                    <div class="about-description">
+                        <p>مرحباً! أنا EL Samurai مبرمج شاب من مصر، محافظة الدقهلية. بدأت رحلتي في عالم البرمجة منذ سن مبكرة، وأنا الآن أبلغ من العمر 20 عاماً.</p>
+                        <p>أنا شغوف بالبرمجة والاختراق، وأسعى دائماً لتطوير مهاراتي وتعلم تقنيات جديدة. أجيد لغة بايثون بشكل احترافي، بالإضافة إلى لغات الويب المختلفة.</p>
+                        <p>أقوم بمشاركة معرفتي ومشاريعي من خلال قناتي على التليجرام، حيث أقدم ملفات بايثون وPHP وشروحات للاختراق وأدوات مختلفة.</p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">الاسم:</span>
+                            <span class="info-value">باسم جوده</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">العمر:</span>
+                            <span class="info-value">18 سنة</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">البلد:</span>
+                            <span class="info-value">مصر، الدقهلية</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">الاسم الدقهلية:</span>
+                            <span class="info-value">EL Samurai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مهاراتي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">لغات البرمجة</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4 class="skill-name">بايثون</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%;"></div>
+                                </div>
+                                <span class="level-text">محترف</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <h4 class="skill-name">PHP</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">تطوير الويب</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4 class="skill-name">HTML5</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                                <span class="level-text">محترف</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4 class="skill-name">CSS3</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4 class="skill-name">قواعد البيانات</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%;"></div>
+                                </div>
+                                <span class="level-text">متوسط</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">الاختراق والأمان</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="skill-name">اختبار الاختراق</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <h4 class="skill-name">اكتشاف الثغرات</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-tilt>
+                            <div class="skill-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <h4 class="skill-name">أمان الويب</h4>
+                            <div class="skill-level">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%;"></div>
+                                </div>
+                                <span class="level-text">متقدم</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مشاريعي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-content">
+                <div class="projects-grid">
+                    <div class="project-card" data-tilt>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">أدوات بايثون للاختراق</h3>
+                            <p class="project-description">مجموعة من الأدوات المطورة بلغة بايثون لاختبار الاختراق واكتشاف الثغرات.</p>
+                            <div class="project-tags">
+                                <span class="tag">بايثون</span>
+                                <span class="tag">أمان</span>
+                                <span class="tag">اختراق</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">تطبيقات ويب PHP</h3>
+                            <p class="project-description">مجموعة من تطبيقات الويب المطورة بلغة PHP مع واجهات مستخدم متقدمة.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">بوتات تليجرام</h3>
+                            <p class="project-description">بوتات تليجرام متعددة الوظائف مطورة بلغة بايثون لأغراض مختلفة.</p>
+                            <div class="project-tags">
+                                <span class="tag">بايثون</span>
+                                <span class="tag">API</span>
+                                <span class="tag">تليجرام</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">أدوات مدفوعة</h3>
+                            <p class="project-description">مجموعة من الأدوات المدفوعة المتاحة في قناة التليجرام الخاصة بي.</p>
+                            <div class="project-tags">
+                                <span class="tag">أدوات</span>
+                                <span class="tag">برمجيات</span>
+                                <span class="tag">حصري</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-more">
+                    <a href="https://t.me/samurai_updates" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                        زيارة قناة التليجرام للمزيد من المشاريع
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="terminal-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">محاكاة طرفية</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="interactive-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-title">EL Samurai Terminal</div>
+                    <div class="terminal-controls">
+                        <span class="control"></span>
+                        <span class="control"></span>
+                        <span class="control"></span>
+                    </div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-output" id="terminal-output">
+                        <div class="line">Welcome to EL Samurai Terminal v1.0</div>
+                        <div class="line">Type 'help' to see available commands</div>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="prompt">EL Samurai@system:~$</span>
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معي</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <h3 class="contact-title">تليجرام</h3>
+                        <p class="contact-value">@VTlL99</p>
+                        <a href="https://t.me/VTlL99" class="contact-link" target="_blank">تواصل عبر تليجرام</a>
+                    </div>
+                    <div class="contact-card" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h3 class="contact-title">قناة تليجرام</h3>
+                        <p class="contact-value">EL Samurai/p>
+                        <a href="https://t.me/samurai_updates" class="contact-link" target="_blank">زيارة القناة</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">EL Samurai</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 EL Samurai جميع الحقوق محفوظة.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://t.me/VTlL99" class="social-link" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://t.me/samurai_updates" class="social-link" target="_blank">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="js/matrix.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
